@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStrategy_Example", "MyStr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncreaseDefectsChancePlayer_Example", "IncreaseDefectsChancePlayer_Example\IncreaseDefectsChancePlayer_Example.csproj", "{00A09E21-2AE6-46F0-8937-0E48DBDEFD02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumbPlayer_Example", "DumbPlayer_Example\DumbPlayer_Example.csproj", "{95EE0512-7AFA-4356-9939-7F356EF109EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{00A09E21-2AE6-46F0-8937-0E48DBDEFD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00A09E21-2AE6-46F0-8937-0E48DBDEFD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00A09E21-2AE6-46F0-8937-0E48DBDEFD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EE0512-7AFA-4356-9939-7F356EF109EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EE0512-7AFA-4356-9939-7F356EF109EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EE0512-7AFA-4356-9939-7F356EF109EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EE0512-7AFA-4356-9939-7F356EF109EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
