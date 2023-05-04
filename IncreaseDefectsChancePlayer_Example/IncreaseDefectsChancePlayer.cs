@@ -8,7 +8,7 @@ namespace IncreaseDefectsChancePlayer_Example
         private static float currentDefectChanceValuce = 0.01f;
         private static readonly Random random = new Random();
 
-        public static float IncreaseDefectChanceValue => .25f;
+        public static float IncreaseDefectChanceValue => .05f;
         public static float CurrentDefectChanceValuce
         {
             get => currentDefectChanceValuce;
