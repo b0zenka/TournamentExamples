@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncreaseDefectsChancePlayer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DumbPlayer_Example", "DumbPlayer_Example\DumbPlayer_Example.csproj", "{95EE0512-7AFA-4356-9939-7F356EF109EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveProber_Example", "NaiveProber_Example\NaiveProber_Example.csproj", "{5287D613-8F4A-4D26-AF79-BEE568B8667E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HardJoss_Example", "NaiveProber_Example\HardJoss_Example.csproj", "{5287D613-8F4A-4D26-AF79-BEE568B8667E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

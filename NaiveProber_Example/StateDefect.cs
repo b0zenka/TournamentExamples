@@ -1,18 +1,18 @@
 ﻿using System;
 using TournamentPlayer;
 
-namespace NaiveProber_Example
+namespace HardJoss_Example
 {
-    internal class StateDefect : StateRandom
+    internal class StateDefect : IState
     {
-        public StateDefect() : base(Strategy.Defects) { }
+        public Strategy PlayerStrategy => Strategy.Defects;
 
-        public override IState HandleState(Strategy? lastOpponentStrategy)
+        public IState HandleState(Strategy? lastOpponentStrategy)
         {
             if (lastOpponentStrategy == null)
                 throw new ArgumentNullException();
 
-            if (lastOpponentStrategy == Strategy.Defects || GetRandomValue() <= 0.1f) 
+            if (lastOpponentStrategy == Strategy.Defects) 
                 return this;
 
             return new StateCooperate();

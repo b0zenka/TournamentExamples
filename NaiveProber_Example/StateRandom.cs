@@ -1,7 +1,7 @@
 ﻿using System;
 using TournamentPlayer;
 
-namespace NaiveProber_Example
+namespace HardJoss_Example
 {
     internal abstract class StateRandom : IState
     {
